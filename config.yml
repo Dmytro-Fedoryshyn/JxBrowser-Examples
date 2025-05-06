@@ -1,5 +1,14 @@
+# This is a config file for automatically updating the repo's configuration
+# based on changes made in a central configuration repository.
+
+# Developers who are requested to review the pull request automatically.
+# Add the GitHub usernames of the developers who should be assigned to review the PR.
 reviewers:
   - Dmytro-Fedoryshyn
 
+# The source directories from the configuration repo that need to be copied 
+# to the root directory of the current repo.
+# When the config repo changes, the content from these directories will be copied 
+# into the current repo.
 config_dirs:
   - jxbrowser-examples
