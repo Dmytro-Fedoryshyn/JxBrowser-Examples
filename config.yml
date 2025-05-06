@@ -1,5 +1,5 @@
 reviewers:
   - Dmytro-Fedoryshyn
 
-folders:
+config_dirs:
   - jxbrowser-examples
