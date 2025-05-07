@@ -10,5 +10,5 @@ reviewers:
 # to the root directory of the current repo.
 # When the config repo changes, the content from these directories will be copied 
 # into the current repo.
-config_dirs:
+configs:
   - jxbrowser-examples
