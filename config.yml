@@ -1,14 +1,13 @@
-# This is a config file for automatically updating the repo's configuration
-# based on changes made in a central configuration repository.
+# This is a config file for automatically updating the project configuration
+# based on changes made in the https://github.com/xxx/ConfigRepo.
 
-# Developers who are requested to review the pull request automatically.
-# Add the GitHub usernames of the developers who should be assigned to review the PR.
+# The GitHub usernames of the developers who will be requested to review the PR with the config changes.
+# The first developer in the list will also be assigned to the PR.
 reviewers:
   - Dmytro-Fedoryshyn
 
-# The source directories from the configuration repo that need to be copied 
-# to the root directory of the current repo.
-# When the config repo changes, the content from these directories will be copied 
-# into the current repo.
+# The list of configs, applied to this project.
+# The configs will be applied one-by-one in the specified order,
+# resulting in conflicting changes being overwritten by subsequent configs.
 configs:
   - jxbrowser-examples
