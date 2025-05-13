@@ -10,4 +10,4 @@ reviewers:
 # The configs will be applied one-by-one in the specified order,
 # resulting in conflicting changes being overwritten by subsequent configs.
 configs:
-  - java_gradle
+  
