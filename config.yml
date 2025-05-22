@@ -11,3 +11,4 @@ reviewers:
 # resulting in conflicting changes being overwritten by subsequent configs.
 configs:
   - java_gradle
+  - java_open_source
