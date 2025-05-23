@@ -2,8 +2,11 @@
 # based on changes made in the https://github.com/DmytroFedoryshyn/ConfigRepo.
 
 # The GitHub usernames of the developers who will be requested to review the PR with the config changes.
-# The first developer in the list will also be assigned to the PR and responsible for merging it.
 reviewers:
+  - Dmytro-Fedoryshyn
+
+# This developer will be assigned to the PR and responsible for merging it.
+assignee:
   - Dmytro-Fedoryshyn
 
 # The list of configs, applied to this project.
