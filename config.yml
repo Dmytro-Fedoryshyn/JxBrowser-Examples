@@ -6,8 +6,7 @@ reviewers:
   - Dmytro-Fedoryshyn
 
 # This developer will be assigned to the PR and responsible for merging it.
-assignee:
-  - Dmytro-Fedoryshyn
+assignee: "Dmytro-Fedoryshyn"
 
 # The list of configs, applied to this project.
 # The configs will be applied one-by-one in the specified order,
