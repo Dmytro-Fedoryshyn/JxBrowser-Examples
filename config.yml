@@ -1,10 +1,6 @@
 # This is a config file for automatically updating the project configuration
 # based on changes made in the https://github.com/DmytroFedoryshyn/ConfigRepo.
 
-# The GitHub usernames of the developers who will be requested to review the PR with the config changes.
-reviewers:
-  - Dmytro-Fedoryshyn
-
 # This developer will be assigned to the PR and responsible for merging it.
 assignee: "Dmytro-Fedoryshyn"
 
